@@ -1,0 +1,26 @@
+             # "for" loops---->>>
+
+#1. for loop in list=
+list=["harry","carry","narry","marry"]
+for item in list:
+    print(item)
+
+#2. for loop in list[list]=
+list1=[["harry",1],["larry",2],["carry",3],["marry",4]]
+for items ,roti in list1:
+    print(items,roti)
+
+#change list in to dictionary=
+list2=dict(list1)
+print(list2)
+
+#3. for loop in dictionary=
+for item1,rotis in list2.items():
+    print(item1,rotis)
+
+#quiz----->>
+
+item2=["harry","carry","marry","narry",55,66,77,44,33,22,1,2,3,4]
+for item3 in item2:
+    if str (item3).isnumeric()and item3>6:
+        print(item3)

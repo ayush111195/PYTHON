@@ -1,0 +1,30 @@
+                      #if and else conditionals---->>>
+var1=34
+var2=56
+print("enter the num =")
+var3=int(input())
+if var3>var2:
+    print("greater")
+    if var3==var2:
+        print("equal")
+else:
+    print("lesser")
+
+# ye jo if lha h iski wjh se ye baar baar check karega condition ko baar abhi 2 h maan lo baad main 100 hue to
+#100 ko check karega tym jyda lgega
+#isleye  hum log elseif ka use karte h jiska syntax -"elif"
+if var3>var2:
+    print("greater")
+elif var3==var2:
+        print("equal")
+else:
+    print("lesser")
+
+list=[5,6,7,8,9]
+print(5 in list) # check karne ke leye ki diya lgya element h ya nhi h list main we use the="in"
+
+print(15 not in list)# check karne ke leye ki diya lgya element h ya nhi h list main we use the=" not in"
+
+                            # quiz--->>>>
+
+
